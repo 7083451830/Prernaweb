@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prerna Foundation - Support Needy Students</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-image: url('background img.jpg'); /* Replace with your image */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    section {
+      min-height: 100vh;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    header {
+      text-align: center;
+      color: white;
+      background-color: rgba(0, 102, 204, 0.85);
+      padding: 20px;
+      border-bottom: 5px solid #ffcc00;
+      border-radius: 0 0 30px 30px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 5px;
+    }
+
+    h3 {
+      color: #fff;
+      margin-top: 0;
+    }
+
+    /* ---------- PAGE 1 (HOME) ---------- */
+    .page1 {
+      background-color: rgba(255, 255, 255, 0.9);
+      border-top: 10px solid #00bcd4;
+      border-bottom: 10px solid #ff4081;
+      text-align: center;
+    }
+
+    .page1 h2 {
+      color: #0066cc;
+    }
+
+    .mission {
+      font-size: 1.1em;
+      width: 80%;
+      max-width: 800px;
+      text-align: justify;
+      background-color: rgba(255,255,255,0.8);
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    /* ---------- PAGE 2 (SCHOOLS) ---------- */
+    .page2 {
+      background-color: rgba(240, 248, 255, 0.9);
+      border-top: 10px solid #ffcc00;
+      border-bottom: 10px solid #00bcd4;
+    }
+
+    /* ✅ Make schools appear one below another */
+    .school-container {
+      display: flex;
+      flex-direction: column; /* stacked vertically */
+      align-items: center;
+      gap: 20px;
+      width: 100%;
+    }
+
+    .school-card {
+      width: 90%;
+      max-width: 400px;
+      background: white;
+      border: 4px solid #00bcd4;
+      border-radius: 15px;
+      padding: 15px;
+      text-align: left;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+
+    .school-card:hover {
+      transform: scale(1.03);
+      border-color: #ff4081;
+    }
+
+    .school-card h2 {
+      color: #3acc00;
+      margin-bottom: 5px;
+    }
+
+    .school-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    /* ---------- PAGE 3 (DONATION) ---------- */
+    .page3 {
+      background-color: rgba(255, 240, 245, 0.9);
+      border-top: 10px solid #00bcd4;
+      border-bottom: 10px solid #ffcc00;
+      text-align: center;
+    }
+
+    .donate img {
+      width: 200px;
+      border: 4px solid #ff4081;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.85);
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌸 Prerna a Fundrising website 🌸</h1>
+    <h3>Empowering Education for Needy Students in Maharashtra</h3>
+  </header>
+
+  <!-- 🏠 PAGE 1: Home -->
+  <section class="page1">
+    <h2>Welcome to Prerna Foundation</h2>
+    <div class="mission">
+      <p>
+        Prerna Foundation is a non-profit initiative that helps underprivileged students in Maharashtra continue their education. 
+        We connect donors with schools that need financial and academic support. Our goal is simple — 
+        <b>"No child should stop studying because of money."</b>
+      </p>
+      <p>
+        We provide school fee assistance, study materials, and digital learning tools for rural and low-income children.
+      </p>
+    </div>
+  </section>
+
+  <!-- 🏫 PAGE 2: Schools -->
+  <section class="page2">
+    <h2>🏫 Partner Schools in Maharashtra</h2>
+    <div class="school-container">
+
+      <div class="school-card">
+        <h2>1️⃣ Z.P. High School, Chandrapur</h2>
+        <img src="https://media.assettype.com/esakal%2Fimport%2Fs3fs-public%2Fnews-story%2Fcover-images%2F2school_111.jpg?w=480&auto=format%2Ccompress&fit=max" alt="Z.P. High School, Chandrapur">
+        <p><b>Address:</b> Near Bus Stand, Chandrapur</p>
+        <p><b>Contact:</b> +91 9821 123 456</p>
+        <p><b>Needs:</b> Books, uniforms, exam fees</p>
+      </div>
+
+      <div class="school-card">
+        <h2>2️⃣ Prabodhini Vidyalaya, Nagpur</h2>
+        <img src="https://vigyanpratibha.in/wp-content/uploads/2020/01/osmosis.jpg" alt="Z.P. High School, Chandrapur">
+        <p><b>Address:</b> Near Bus Stand, Chandrapur</p>
+        <p><b>Address:</b> Wardha Road, Nagpur</p>
+        <p><b>Contact:</b> +91 9832 567 890</p>
+        <p><b>Needs:</b> Notebooks, tuition fee support</p>
+      </div>
+
+      <div class="school-card">
+        <h2>3️⃣ Shivaji Vidyalaya, Amravati</h2>
+        <img src="https://tmvidyalaya.edu.in/wp-content/uploads/2025/04/Tilak-Maharashtra-Vidyalaya-CBSE-School-Pune-School-Activities-Primary-Section-Photo-19.jpeg" alt="Z.P. High School, Chandrapur">
+        <p><b>Address:</b> Near Bus Stand, Chandrapur</p>
+        <p><b>Address:</b> Near Rajapeth, Amravati</p>
+        <p><b>Contact:</b> +91 9768 112 233</p>
+        <p><b>Needs:</b> Library renovation, digital classroom setup</p>
+      </div>
+
+      <div class="school-card">
+        <h2>4️⃣ Mahatma Jyotiba Phule School, Nashik</h2>
+        <img src="https://scoonews.com/wp-content/uploads/2022/07/up-primary-school-teachers15064903531506490353.jpg" alt="Z.P. High School, Chandrapur">
+        <p><b>Address:</b> Near Bus Stand, Chandrapur</p>
+        <p><b>Address:</b> Panchavati, Nashik</p>
+        <p><b>Contact:</b> +91 9845 778 321</p>
+        <p><b>Needs:</b> Girl education & sanitary kits</p>
+      </div>
+
+      <div class="school-card">
+        <h2>5️⃣ New English School, Pune</h2>
+        <img src="https://lh3.googleusercontent.com/-8RU4Hd6-54I/VNIQZ2SaqBI/AAAAAAAAAAQ/Mt_uFf4hKyYRv2Qo0Dv7KL8OuRvwly5gwCJkC/photo.jpg" alt="Z.P. High School, Chandrapur">
+        <p><b>Address:</b> Near Bus Stand, Chandrapur</p>
+        <p><b>Address:</b> Sinhgad Road, Pune</p>
+        <p><b>Contact:</b>
